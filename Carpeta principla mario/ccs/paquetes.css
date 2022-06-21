@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgb(87, 87, 186);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-image: url(../images/logo-grande.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo-menu {
+ 
+    display: none;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+section{
+    display: flex;
+    width: 1000px;
+    /* border: solid 1px black; */
+    margin: 0 auto;
+
+}
+
+section>div{
+    /* border: solid 1px black; */
+    flex-grow: 1;
+}
+
+.card{
+    /* border: solid 1px black; */
+    margin: 10px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 40px;
+    padding-bottom: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.card h2, .card p{
+    margin-left: 10px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header {
+    height: 30vh !important;
+    background: url(../images/Restaurante-Palenqueras-en-Plaza-de-la-Trinidad-de-Getsemaní-en-Cartagena-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sau {
+    padding: 20px;
+    width: auto;
+    font-family: serif;
+    color: #fff;
+background:url(../images/Puerta\ del\ Reloj.jpg);
+    }
+    

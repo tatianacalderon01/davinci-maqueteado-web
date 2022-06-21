@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgb(87, 87, 186);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-image: url(../images/logo-grande.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo-menu {
+ 
+    display: none;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.header {
+    height: 60vh !important;
+    background: url(../images/Restaurante-Palenqueras-en-Plaza-de-la-Trinidad-de-Getsemaní-en-Cartagena-1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+    max-width: 51.3rem;
+    margin:  0 auto 5.4rem;
+}
+
+
+.btn:hover {
+
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.contenedor {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+   
+
+}
+.box-contenedor-imagenes {
+    display: flex ; 
+    justify-content: center;
+    text-align: center;
+}
+
+.box-contenedor .box {
+    height: 11rem;
+    width: 17rem;
+    background: #7b7474;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+ 
+}
+
+.box-contenedor .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+
+}
+
+.box-contenedor .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+ 
+
+}
+
+.box-contenedor .box p {
+    padding: 0 15px;
+    font-size: 16px;
+
+   
+}
+
+.about {
+    background: #090909;
+}
+
+.price {
+    background: url(../images/Cartagena_de_Indias_homebanner.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contacto {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+
+.informacion{
+
+    padding: 7.9rem 0;
+    background: rgb(87, 87, 186);
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    
+}
+        
